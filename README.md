@@ -1,6 +1,6 @@
 # DataStore
 
-A simple storage solution for your apps, using Property Wrappers.
+A simple storage solution for Swift, using Property Wrappers.
 
 Use something like this, preferably a dedicated DataStore.swift file in your project:
 ```swift
@@ -25,6 +25,8 @@ extension DataStore {
     }
 }
 ```
+
+It's similar to SwiftUI's `@AppStorage`, but not limited to primatives, as it works with any `Codable` type.
 
 ---
 ###### Based on something I most likely found on StackOverflow a while back. If you happen to recognize it, create an issue and I'll gladly give credit!
