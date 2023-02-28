@@ -26,6 +26,11 @@ extension DataStore {
 }
 ```
 
+Then you can call it like this:
+```swift
+DataStore.Settings.someSettingValue = .aDifferentCaseOfYourEnum // or whatever else!
+```
+
 It's similar to SwiftUI's `@AppStorage`, but not limited to primatives, as it works with any `Codable` type.
 
 ---
